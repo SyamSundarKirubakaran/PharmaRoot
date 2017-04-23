@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bugscript.pharmaroot.DataEntry"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tabletnumber"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Tablet Number"
+                android:maxLength="4" />
+
+            <EditText
+                android:id="@+id/tabletname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:maxLength="30"
+                android:hint="Tablet Name" />
+
+            <EditText
+                android:id="@+id/batchnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                android:maxLength="30"
+                android:hint="Batch Number(4)" />
+
+            <EditText
+                android:id="@+id/mandate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:inputType="date"
+                android:maxLength="30"
+                android:hint="Manu date(DD-MM-YYYY)" />
+
+            <EditText
+                android:id="@+id/expdate"
+                android:inputType="date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:maxLength="30"
+                android:hint="Exp Date(DD-MM-YYYY)" />
+
+            <EditText
+                android:id="@+id/mrp"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="30"
+                android:layout_marginTop="10dp"
+                android:hint="MRP" />
+
+            <EditText
+                android:id="@+id/licencenumber"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="6"
+                android:layout_marginTop="10dp"
+                android:hint="Licence Number(6)" />
+
+            <EditText
+                android:id="@+id/maxdosage"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:maxLength="30"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Maximum Dosage" />
+
+            <EditText
+                android:id="@+id/diseasecured"
+                android:layout_width="match_parent"
+                android:maxLength="30"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Disease Cured" />
+
+            <EditText
+                android:id="@+id/companyname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Company Name" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="submit"
+                android:id="@+id/submitbuttonfordata"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

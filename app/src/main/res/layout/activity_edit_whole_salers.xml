@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bugscript.pharmaroot.EditWholeSalers"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/india"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Tablet Number"
+        android:id="@+id/tabno"
+        android:maxLength="4"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Batch Number"
+        android:layout_marginTop="8dp"
+        android:id="@+id/bnumber"
+        android:inputType="number"
+        android:maxLength="6"
+        />
+
+    <EditText
+        android:id="@+id/mnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Manufactory Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:layout_marginTop="8dp"
+        android:hint="Expiry Date" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"
+        android:text="Update Now"
+        android:id="@+id/updateContent"
+        android:layout_marginTop="18dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created by Pharma root team dedicated to the Ministry of Ayush"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>

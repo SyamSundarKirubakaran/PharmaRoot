@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1066070833682",
+    "firebase_url": "https://pharmaroot-cca44.firebaseio.com",
+    "project_id": "pharmaroot-cca44",
+    "storage_bucket": "pharmaroot-cca44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066070833682:android:14b1c8f5d2420dc5",
+        "android_client_info": {
+          "package_name": "com.bugscript.pharmaroot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066070833682-ff8fapujrdqo9hdphj83jtnr1a5pqu4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bugscript.pharmaroot",
+            "certificate_hash": "1575c8c6d9e37e31d159e2184f0a9eb1c58a887e"
+          }
+        },
+        {
+          "client_id": "1066070833682-0h7tuh8mu93tq40ljrpmrn143m2hkc3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqS596YD74AR1Uo7oq9kUe_aa9WJlMoSo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066070833682-0h7tuh8mu93tq40ljrpmrn143m2hkc3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
