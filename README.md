@@ -15,3 +15,5 @@
 **Application status**:
 
 ![AppPreview](pharmaroot.gif)
+
+**License**:  Apache 2.0 
